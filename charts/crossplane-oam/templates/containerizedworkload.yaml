@@ -5,4 +5,4 @@ metadata:
     name: containerizedworkloads.core.oam.dev
 spec:
     definitionRef:
-    name: containerizedworkloads.core.oam.dev
+        name: containerizedworkloads.core.oam.dev
