@@ -3,9 +3,9 @@ entries:
   crossplane-oam:
   - apiVersion: v1
     appVersion: 0.10.0-rc.24.g61146c2
-    created: "2020-04-19T16:37:45.430144+08:00"
+    created: "2020-04-22T17:12:13.658548+08:00"
     description: Crossplane, Open Application Model runtime.
-    digest: 025ae9315bef29559af414dd3f3b334d5c942a2109d4108004775cbaf5403cd8
+    digest: 71ecb761b28d09bde21387f7d92deb3d888f08621633fbeace86dbaeee5a86e9
     home: https://oam.dev
     keywords:
     - clusters as cattle
@@ -25,6 +25,6 @@ entries:
       name: Crossplane OAM Maintainers
     name: crossplane-oam
     urls:
-    - crossplane-oam-1.0.0.tgz
-    version: 1.0.0
-generated: "2020-04-19T16:37:45.42371+08:00"
+    - crossplane-oam-1.0.1.tgz
+    version: 1.0.1
+generated: "2020-04-22T17:12:13.651367+08:00"
