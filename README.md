@@ -33,8 +33,6 @@ helm install crossplane --namespace oam-system oam/crossplane-oam
 
 ```
 $ kubectl apply -f samples/sample_application_config.yaml
-traitdefinition.core.oam.dev/manualscalertraits.core.oam.dev created
-workloaddefinition.core.oam.dev/containerizedworkloads.core.oam.dev created
 component.core.oam.dev/example-component created
 applicationconfiguration.core.oam.dev/example-appconfig created
 ```
