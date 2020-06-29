@@ -8,36 +8,44 @@ metadata:
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 rules:
+# Just for demo, we'll change it in the future
 - apiGroups:
-  - ""
-  resources:
-  - events
-  verbs:
-  - create
-  - update
-  - patch
-  - delete
-- apiGroups:
-  - ""
-  resources:
-  - secrets
-  verbs:
-  - get
-  - list
-  - watch
-  - create
-  - update
-- apiGroups:
-  - cache.crossplane.io
-  - compute.crossplane.io
-  - database.crossplane.io
-  - kubernetes.crossplane.io
-  - core.crossplane.io
-  - stacks.crossplane.io
-  - storage.crossplane.io
-  - workload.crossplane.io
-  - core.oam.dev
+  - "*"
   resources:
   - "*"
   verbs:
   - "*"
+# For production, at least below authorizations are required
+#- apiGroups:
+#  - ""
+#  resources:
+#  - events
+#  verbs:
+#  - create
+#  - update
+#  - patch
+#  - delete
+#- apiGroups:
+#  - ""
+#  resources:
+#  - secrets
+#  verbs:
+#  - get
+#  - list
+#  - watch
+#  - create
+#  - update
+#- apiGroups:
+#  - cache.crossplane.io
+#  - compute.crossplane.io
+#  - database.crossplane.io
+#  - kubernetes.crossplane.io
+#  - core.crossplane.io
+#  - stacks.crossplane.io
+#  - storage.crossplane.io
+#  - workload.crossplane.io
+#  - core.oam.dev
+#  resources:
+#  - "*"
+#  verbs:
+#  - "*"
