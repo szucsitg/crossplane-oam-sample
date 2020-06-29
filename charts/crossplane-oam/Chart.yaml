@@ -19,4 +19,4 @@ maintainers:
 - email: info@crossplane.io
   name: Crossplane OAM Maintainers
 name: crossplane-oam
-version: 1.0.1
+version: 1.0.2
