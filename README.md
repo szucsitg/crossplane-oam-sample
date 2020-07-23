@@ -1,3 +1,5 @@
+**This repo is now deprecated, as you can install from [OAM Kubernetes Runtime](https://github.com/crossplane/oam-kubernetes-runtime#install-oam-runtime).**
+
 # Crossplane OAM Sample
 
 This repo is for quick and simple demo to show how OAM works on version v1alpha2,
